@@ -1,5 +1,5 @@
 ---
-
+#internalize the package
 - name: check if package is already internalized
   win_stat:
     path: '{{ chocolatey_repo_folder }}\{{ package.name }}.{{ package.version }}.nupkg'
